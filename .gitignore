@@ -1,0 +1,13 @@
+# 環境変数
+.env
+
+# Python関連のキャッシュ
+__pycache__/
+*.py[cod]
+
+# data配下の各キャラクターフォルダおよびテスト音源
+/data/*/
+/data/sample*.mp3
+
+# dataフォルダ自体を維持するために .gitkeep を除外対象から外す
+!/data/.gitkeep
